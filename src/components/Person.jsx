@@ -1,10 +1,10 @@
 import React from "react";
 import './Person.css'
 
-const Person = ({ name, age }) => {
+const Person = ({ firstName, lastName }) => {
   return (
     <p className='Person'>
-      Name : {name} , Age : {age}
+      First Name : {firstName} , Last Name : {lastName}
     </p>
   );
 };
